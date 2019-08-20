@@ -1,0 +1,13 @@
+apiVersion: v1
+projects:
+  my-stack-name:
+  - updated: 2019-08-02T23:12:19+0000
+    name: My Stack
+    version: 1.0.0
+    description: My custom stack
+    license: Apache-2.0
+    maintainers:
+      - yourname@yourcompany.com
+    default-template: default
+    urls:
+    - https://github.com/<your_name>/<your_repo>/releases/download/my-stack-v1.0.0/my-stack.templates.default.tar.gz
